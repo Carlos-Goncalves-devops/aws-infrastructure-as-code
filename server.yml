@@ -116,8 +116,8 @@ Resources:
           apt-get install apache2 -y
           systemctl start apache2.service
           cd /var/www/html
-          aws s3 cp s3://bucket/project.zip .
-          unzip -o udacity.zip
+          aws s3 cp s3://bucket-name/project.zip .
+          unzip -o project.zip
       ImageId: ami-003634241a8fcdec0
       SecurityGroups:
       - Ref: WebServerSecGroup
