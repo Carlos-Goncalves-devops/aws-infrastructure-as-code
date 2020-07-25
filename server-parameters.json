@@ -1,11 +1,11 @@
 [
 	{
 		"ParameterKey": "EnvironmentName",
-		"ParameterValue": "UdacityProject"
+		"ParameterValue": "YourProject"
 	},
 	{
 		"ParameterKey": "BastionKeyPairName",
-		"ParameterValue": "UdacityProjectKeyPair"
+		"ParameterValue": "YourProjectKeyPair"
 	}
 
 ]
