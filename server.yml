@@ -1,5 +1,5 @@
 Description: >
-    CG-Udacity
+    CG-Devops
 
 Parameters:
 
@@ -116,7 +116,7 @@ Resources:
           apt-get install apache2 -y
           systemctl start apache2.service
           cd /var/www/html
-          aws s3 cp s3://udacity-demo-1/udacity.zip .
+          aws s3 cp s3://bucket/project.zip .
           unzip -o udacity.zip
       ImageId: ami-003634241a8fcdec0
       SecurityGroups:
