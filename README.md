@@ -23,3 +23,6 @@ run aws cloudformation create-stack --stack-name $1 --template-body file://$2  -
 
 #### command to update the stack
 aws cloudformation update-stack --stack-name $1 --template-body file://$2  --parameters file://$3 --capabilities "CAPABILITY_IAM" "CAPABILITY_NAMED_IAM" --region=$4
+
+#### command to validate template
+aws cloudformation validate-template --template-body file://path.yml
